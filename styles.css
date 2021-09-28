@@ -1,9 +1,16 @@
-<style>
-body{
-    color: red;
+body {
+    color: gold;
 }
-<style>
 
 h1 {
     color: blue;
+}
+h2{
+    color:chocolate;
+}
+#lib-header {
+    color:hotpink;
+}
+.para {
+    color:firebrick;
 }
