@@ -62,3 +62,22 @@ body {
 .navigation link-active {
     font-weight: bold;
 }
+
+/**header**/
+.hero {
+    padding: 1rem;
+
+}
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-headingone {
+    color: green;
+}
+.hero .hero-headingtwo {
+    font-weight: bold;
+    color: violet;
+    font-size: 1rem;
+}
