@@ -5,3 +5,12 @@ body {
     font-family: 'Roboto Slab', serif;
 
 }
+/** Container**/
+.container {
+    padding-left: 1rem;
+    padding-left: 1rem;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
