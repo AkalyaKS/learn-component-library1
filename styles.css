@@ -66,18 +66,26 @@ body {
 /**header**/
 .hero {
     padding: 1rem;
-
+   
 }
+
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
+
 .hero .hero-headingone {
-    color: green;
+    background-color: var(--primary-color);
+    color: white;
+
 }
+
 .hero .hero-headingtwo {
     font-weight: bold;
-    color: violet;
+    color: #F59E0B;
     font-size: 1rem;
+}
+.hero .hero-headingtwo .hero-headingthree {
+    color: var(--primary-color)
 }
