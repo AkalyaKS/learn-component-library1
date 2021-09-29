@@ -91,7 +91,26 @@ body {
 }
 
 /**Section**/
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
 .section-ow {
     background-color: #34D399;
+    text-align: center;
+    display: block
 
+}
+
+/**footer**/
+.footer {
+    background-color: #EC4899;
+}
+.footer .footer-header {
+    text-align: center;
+}
+.footer .social-links{
+    text-align: center;
 }
