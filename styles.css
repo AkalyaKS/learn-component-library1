@@ -89,3 +89,9 @@ body {
 .hero .hero-headingtwo .hero-headingthree {
     color: var(--primary-color)
 }
+
+/**Section**/
+.section-ow {
+    background-color: #34D399;
+
+}
