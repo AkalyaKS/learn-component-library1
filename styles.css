@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
-
-
+:root {
+    --primary-color: #9D174D;
+}
+hr {
+    margin: 2rem 0rem;
+}
 body {
     font-family: 'Roboto Slab', serif;
 
@@ -13,4 +17,19 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+/**links**/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
