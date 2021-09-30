@@ -21,8 +21,11 @@ body {
 }
 /**links**/
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .link-primary {
     background-color: var(--primary-color);
@@ -115,7 +118,9 @@ body {
 /**footer**/
 .footer {
     background-color: #EC4899;
+    font-weight: bold;
 }
+
 .footer .footer-header {
     text-align: center;
 }
