@@ -2,12 +2,13 @@
 :root {
     --primary-color: #9D174D;
 }
+
 hr {
     margin: 2rem 0rem;
 }
 body {
     font-family: 'Roboto Slab', serif;
-
+    color: #9D174D;
 }
 /** Container**/
 .container {
@@ -84,10 +85,14 @@ body {
 .hero .hero-headingtwo {
     font-weight: bold;
     color: #F59E0B;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: center;
 }
 .hero .hero-headingtwo .hero-headingthree {
     color: var(--primary-color)
+}
+.fw {
+    color: #065F46;
 }
 
 /**Section**/
@@ -101,8 +106,11 @@ body {
     background-color: #34D399;
     text-align: center;
     display: block
-
 }
+.project {
+        text-align: center;
+        color: #9D174D;
+    }
 
 /**footer**/
 .footer {
